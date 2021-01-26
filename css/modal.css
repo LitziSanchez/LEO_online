@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    padding: 1em;
+}
+
+#a{
+background-color: #98CF16;
+}
+#e{
+    background-color: #DD284B;
+    }
+#i{
+     background-color: #06A6E0;
+ }
+ #o{
+    background-color: #F3D342;
+    }
+#u{
+    background-color: #824C9E;
+    }
+
+.modal{
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: 99999999;
+    background: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.modal .content-modal{
+    height: 550px;
+    width: 70%;
+    position: fixed;
+    left: 15%;
+    top: -100vh;
+    transition: top 0.35s ease;
+    background: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    z-index: 99999999;
+    margin: 0 auto;
+}
+
+.modal h2{
+    padding: 0.5em;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#c1{
+    
+    color: #119F4A;
+    text-shadow: 3px 2.5px #b3d92985;
+    letter-spacing: 2px;
+}
+#c2{
+    color: #DD284B;
+    text-shadow: 3px 2.5px #c00329;
+    letter-spacing: 2px;
+}
+#c3{
+    color: #06A6E0;
+    text-shadow: 3px 2.5px #03678c;
+    letter-spacing: 2px;
+}
+#c4{
+    color: #F3D342;
+    text-shadow: 3px 2.5px #f8962d;
+    letter-spacing: 2px;  
+}
+#c5{
+    color: #824C9E;
+    text-shadow: 3px 2.5px #50166d;
+    letter-spacing: 2px;  
+}
+
+
+.close{
+    color: white;
+    position: absolute;
+    top: 0.2em;
+    right: 0.375em;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 2.2em;
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+
+.modal:target{
+    opacity: 1;
+    top: 0;
+}
+
+.modal .btn-close-modal{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999991;
+}
+
+.modal:target .content-modal{
+    top:50px;
+    transition: top 0.35s ease;
+}
+
+@media (max-width: 796px){
+    .modal .content-modal{
+        width: 90%;
+        max-width: none;
+        left: 5%;
+        margin-left: 0;
+    }
+}
+@media (max-width: 500px){
+    .modal h2{
+        font-size: 1.7em;
+        margin-top: 2em;
+        text-shadow: 2.5px 1px
+    }
+}

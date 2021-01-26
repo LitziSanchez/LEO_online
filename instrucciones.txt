@@ -1,0 +1,24 @@
+Actividades a realizar:
+-Responsive de la página principal (centrar logotipo y cambiar tamaño, cambiar tamaño del boton comenzar y el boton acerca del proyecto)
+-Investigar si es posible colocar un código de JavaScript al boton en forma de X en la página principal para cerrar la ventana del navegador ( si no es posible eliminar el boton de la pantalla)
+-Responsive del menú principal (Opciones de Escritura y Ejemplos, Actividades y Lecturas -- deben quedar las tarjetas de forma vertical y se debe ajustar el contenido dentro de ellas)
+-Responsive del menú Escritura y Ejemplos (Opciones Vocales y Abecedario -- deben quedar las tarjetas de forma vertical y se debe ajustar el contenido dentro de ellas)
+-Responsive del menú actividades (Debe cambiar el tamaño de los botones circulares, y la ventana modal de cada boton debe estar alineada verticalmente, tambien se debe corregir el titulo quiza con un id para no afectar otros)
+-Responsive del menú cuentos (Cambiar el tamaño de los botones y/o alinearlos verticalmente)
+-Responsive de la página acerca de (Esta pendiente hacer responsive imagenes y texto)
+
+
+
+NOTAs:
+-La página principal es responsive pero estan pendientes ajustes.
+-Todas las páginas cuentan con un menú superior que ya es responsive.
+-La página vocales.html ya es responsive.
+-La página abecedario.html ya es responsive.
+-La ventana modal de cuentos.html ya es responsive.
+-Parte de la ventana modal de Actividades.html ya es responsive estan pendientes unos ajustes.
+-Los videos estan enlazados desde el canal de YouTube para funcionar con internet.
+-Los archivos de las actividades aun NO estan, por lo que no podran visualizarlos.
+
+
+!Suerte! Revisen con cuidado los archivos css, si es necesario creen nuevos pero identifiquenlos correctamente.
+

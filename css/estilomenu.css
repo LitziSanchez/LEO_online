@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Neucha', cursive;
+    flex-direction: column;
+  
+    
+  background: #50C9C3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.titulo{
+    color: #4258d8;
+    font-family:'Arial Rounded MT';
+    font-size: 1.3em;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden; /*todo lo que este afuera se oculta*/
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transform: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card img{
+width: 100%;
+height: auto;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido p{
+line-height: 1.5;
+color: #414141;
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 2em;
+    
+    
+}
+.card .contenido .a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    width: 60%;
+    margin-top: 10px;
+    font-size: 1.2em;
+    transition: all 400ms ease;
+    font-family: 'Balsamiq Sans', cursive;
+    letter-spacing: 2px;
+}
+#uno{
+    background-color: #D93D59;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 20px;
+}
+#uno:hover{
+    background: #d31336;
+    cursor: pointer;
+    font-size: 1.3em;
+    
+}
+#dos{
+    background-color:#F28B30;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 30px;
+}
+#dos:hover{
+    background: #f27d17;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+#tres{
+    background-color:#027DC1;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 30px;
+}
+#tres:hover{
+    background: #0570aa;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+h1{
+    font-weight:bold;
+    color:  #0e0e8a;
+    font-family: 'Chewy', cursive;
+   letter-spacing: 5px;
+    text-shadow: 2.5px 2.5px #fcfdfbec;
+}
+
+@media (max-width: 500px){
+    h1{
+        font-size: 1.5em;
+        margin-top: 100px;
+    }
+}

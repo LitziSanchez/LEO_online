@@ -1,0 +1,59 @@
+.btnback{
+    position: fixed;
+    top: 100px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnback:hover{
+    transform: translateX(-3%);
+    cursor: pointer;
+}
+
+.btnwrite{
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnexample{
+    position: fixed;
+    top: 330px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+.btnwrite:hover{
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.btnexample:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    transform: translateY(-3%);
+}
+
+
+@media (max-width: 500px){
+    .btnwrite{
+       display: none;
+    }
+    
+    .btnexample{
+       display: none;
+    }
+    .btnback{
+        display: none;
+    }
+}
+
+
+
